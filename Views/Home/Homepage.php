@@ -22,7 +22,7 @@ MostrarCSS();
     </header>
 
     <section class="page-section" id="opciones">
-        <div class="container">
+        <div class="container h-100 d-flex flex-column justify-content-center">
             <div class="text-center">
                 <h3 class="section-subheading text-muted">¿Qué deseas hacer?</h3>
             </div>
