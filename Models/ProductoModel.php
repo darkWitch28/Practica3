@@ -41,3 +41,45 @@ function ConsultarProductos()
     CloseDatabase($context);
     return $lista;
 }
+
+function ObtenerSaldoProducto($idCompra)
+{
+    try {
+        $context = OpenDatabase();
+        $id = intval($idCompra);
+        
+        $sp = "CALL sp_obtener_saldo($id)";
+        $result = $context->query($sp);
+
+        if (!$result) {
+            CloseDatabase($context);
+            return null;
+        }
+        
+        $row = $result->fetch_assoc();
+        CloseDatabase($context);
+        
+        return $row['Saldo'] ?? null;
+    }
+    catch (Exception $e) {
+        return null;
+    }
+}
+
+function RegistrarAbono($idCompra, $monto)
+{
+    try {
+        $context = OpenDatabase();
+        $id = intval($idCompra);
+        $mto = floatval($monto);
+        
+        $sp = "CALL sp_registrar_abono($id, $mto)";
+        $result = $context->query($sp);
+        
+        CloseDatabase($context);
+        return $result !== false;
+    }
+    catch (Exception $e) {
+        return false;
+    }
+}

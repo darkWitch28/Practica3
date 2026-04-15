@@ -1,7 +1,7 @@
 <?php
 include_once $_SERVER["DOCUMENT_ROOT"] . "/Practica3/Views/layoutGeneral.php";
 include_once $_SERVER["DOCUMENT_ROOT"] . "/Practica3/Models/ProductoModel.php";
-$vehiculos = ConsultarProductos();
+$productos = ConsultarProductos();
 ?>
 
 <!DOCTYPE html>
@@ -30,8 +30,8 @@ $vehiculos = ConsultarProductos();
                             </tr>
                         </thead>
                         <tbody>
-                            <?php if (count($vehiculos) > 0): ?>
-                                <?php foreach ($vehiculos as $item): ?>
+                            <?php if (count($productos) > 0): ?>
+                                <?php foreach ($productos as $item): ?>
                                     <tr>
                                         <td><?= htmlspecialchars($item["Id_Compra"]) ?></td>
                                         <td><?= htmlspecialchars($item["Descripcion"]) ?></td>

@@ -11321,7 +11321,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-#registroVendedor, #registroVehiculo {
+#registroVendedor, #registroVehiculo, #registroAbono {
   min-height: calc(100vh - 90px);
   display: flex;
   align-items: center;
@@ -11331,6 +11331,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 100%;
 }
 #registroVehiculo > .container {
+  width: 100%;
+}
+#registroAbono > .container {
   width: 100%;
 }
  .vendor-form-card {

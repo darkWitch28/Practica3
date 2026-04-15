@@ -29,8 +29,8 @@ MostrarCSS();
             
             <div class="row justify-content-center gap-3">
                 <div class="col-auto">
-                    <a href="../Vehiculos/RegistroPago.php" class="btn btn-primary btn-xl text-uppercase"
-                         type="submit">Registrar un Pago</a>
+                    <a href="../Abonos/RegistroAbono.php" class="btn btn-primary btn-xl text-uppercase"
+                         type="submit">Registrar un Abono</a>
                 </div>
                 <div class="col-auto">
                     <a href="../Producto/ConsultaProductos.php" class="btn btn-primary btn-xl text-uppercase"

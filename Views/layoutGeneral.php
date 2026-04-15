@@ -35,9 +35,9 @@ function MostrarNavbar()
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="../Vendedores/RegistroVendedor.php">Registro de Vendedores</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../Vehiculos/RegistroVehiculo.php">Registro de Vehículos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../Vehiculos/ConsultaVehiculo.php">Consulta de Vehículos</a></li>
+                <li class="nav-item"><a class="nav-link" href="../Abonos/RegistroAbono.php">Registrar Abono</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../Producto/ConsultaProductos.php">Consulta de Productos</a></li>
+                    
                 </ul>
             </div>
         </div>
