@@ -1,5 +1,5 @@
 <?php
-include_once $_SERVER["DOCUMENT_ROOT"] . "/Practica3/Models/UtilitarioModel.php";
+include_once $_SERVER["DOCUMENT_ROOT"] . "/PROYECTOS/Practica3/Models/UtilitarioModel.php";
 
 // function RegistrarVehiculo($marca, $modelo, $color, $precio, $vendedor)
 // {
