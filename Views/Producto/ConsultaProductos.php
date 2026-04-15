@@ -1,6 +1,6 @@
 <?php
-include_once $_SERVER["DOCUMENT_ROOT"] . "/Practica3/Views/layoutGeneral.php";
-include_once $_SERVER["DOCUMENT_ROOT"] . "/Practica3/Models/ProductoModel.php";
+include_once $_SERVER["DOCUMENT_ROOT"] . "/PROYECTOS/Practica3/Views/layoutGeneral.php";
+include_once $_SERVER["DOCUMENT_ROOT"] . "/PROYECTOS/Practica3/Models/ProductoModel.php";
 $vehiculos = ConsultarProductos();
 ?>
 
